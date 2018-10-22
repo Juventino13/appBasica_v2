@@ -1857,3 +1857,54 @@ Processing by ProductosController#index as HTML
 Completed 200 OK in 400ms (Views: 338.1ms | ActiveRecord: 2.1ms)
 
 
+Started GET "/" for 172.28.128.1 at 2018-10-22 18:18:59 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 2565ms (Views: 2502.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/productos/edit" for 172.28.128.1 at 2018-10-22 18:19:04 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mProducto Load (2.3ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/productos_controller.rb:6
+Completed 404 Not Found in 43ms (ActiveRecord: 15.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Producto with 'id'=edit):
+  
+app/controllers/productos_controller.rb:6:in `show'
+Started GET "/productos" for 172.28.128.1 at 2018-10-22 18:19:22 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.7ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:11
+  Rendered productos/index.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 411ms (Views: 360.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-22 18:19:50 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 391ms (Views: 344.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-22 18:19:51 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.5ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:11
+  Rendered productos/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 339ms (Views: 291.5ms | ActiveRecord: 2.5ms)
+
+
