@@ -1,0 +1,30 @@
+
+
+
+<h1>Lista de Clientes </h1>
+<%= link_to "Nuevo ciente ", new_cliente_path %>
+<table>
+  <thead>
+    <th>Nombre del producto</th>
+    <th>Precio</th>
+  </thead>
+  <% @clientes.each do |clientes| %>
+  <tr>
+    <td><%= clientes.rfc %></td>
+    <td><%= clientes.nombre_cliente %></td>
+    <td>
+ 
+        <%= link_to "Editar" , edit_cliente_path(clientes) %>
+        <%= link_to "Eliminar" , clientes, method: :delete, data: { confirm: "¿Estas seguro de eliminar?"} %>
+   
+    </td>
+  </tr>
+
+  <% end %>
+
+    
+</table>
+
+<footer>
+ <h2><a href="/"> Inicio </a></h2> 
+</footer>
