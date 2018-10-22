@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'productos/index'
   resources :productos
   root 'productos#index'
  
