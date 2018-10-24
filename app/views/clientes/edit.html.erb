@@ -1,15 +1,33 @@
+<hr>
 <%= form_for @clientes do |f| %>
-    <div>
-    <%= f.label :rfc %> 
-    <%= f.text_field :rfc %> 
-    </div>
-    <div>
-    <%= f.label :nombre_cliente %> 
-    <%= f.text_field :nombre_cliente %> 
-    </div>
+<div class="container">
+    <table class="table table-dark">
+        <tr>
+            <td>
+                <%= f.label :rfc %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%= f.text_field :rfc %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%= f.label :nombre_cliente %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%= f.text_field :nombre_cliente %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%= f.submit %>
+            </td>
+        </tr>
+    </table>
+</div>
 
-    <div>
-    <%= f.submit %> 
-   
-    </div>
-    <%end %>
+<%end %>

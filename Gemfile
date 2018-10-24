@@ -41,6 +41,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+gem 'bootstrap-sass'
+
+
 group :development do
   gem 'sqlite3'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
