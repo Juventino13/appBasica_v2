@@ -5,6 +5,7 @@ class CreateProductos < ActiveRecord::Migration[5.2]
       t.integer :precio
 
       t.timestamps
+
     end
   end
 end

@@ -6360,3 +6360,2050 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 398ms (Views: 346.2ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (12.8ms)[0m  [1m[35mDROP TABLE IF EXISTS "clientes"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (13.7ms)[0m  [1m[35mCREATE TABLE "clientes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "rfc" integer, "nombre_cliente" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (15.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "productos"[0m
+  ↳ db/schema.rb:22
+  [1m[35m (13.6ms)[0m  [1m[35mCREATE TABLE "productos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre_producto" varchar, "precio" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:22
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (2.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (2.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (3.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "clientes"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (10.3ms)[0m  [1m[35mCREATE TABLE "clientes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "rfc" integer, "nombre_cliente" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (6.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "productos"[0m
+  ↳ db/schema.rb:22
+  [1m[35m (12.1ms)[0m  [1m[35mCREATE TABLE "productos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre_producto" varchar, "precio" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:22
+  [1m[35m (12.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (11.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20181022231905)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (13.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20181021224500);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (11.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (3.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (6.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-10-24 03:49:27.852537"], ["updated_at", "2018-10-24 03:49:27.852537"]]
+  ↳ db/schema.rb:13
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (2.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Update (6.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2018-10-24 03:49:27.877533"], ["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateDetalleOrden (20181024035414)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181024035414_create_detalle_orden.rb:3
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE TABLE "detalle_ordens" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "producto_id" integer, "cantidad" integer, "precio" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_4e79a4ec83"
+FOREIGN KEY ("producto_id")
+  REFERENCES "productos" ("id")
+)[0m
+  ↳ db/migrate/20181024035414_create_detalle_orden.rb:3
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE  INDEX "index_detalle_ordens_on_producto_id" ON "detalle_ordens" ("producto_id")[0m
+  ↳ db/migrate/20181024035414_create_detalle_orden.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181024035414"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (9.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateOrden (20181024035752)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181024035752_create_orden.rb:3
+  [1m[35m (19.1ms)[0m  [1m[35mCREATE TABLE "ordens" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "clientes_id" integer, "num_orden" integer, "fecha" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_6e6d7bd307"
+FOREIGN KEY ("clientes_id")
+  REFERENCES "clientes" ("id")
+)[0m
+  ↳ db/migrate/20181024035752_create_orden.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_ordens_on_clientes_id" ON "ordens" ("clientes_id")[0m
+  ↳ db/migrate/20181024035752_create_orden.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181024035752"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (28.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (3.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:16:57 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.2ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (19.6ms)
+Started GET "/orden" for 172.28.128.1 at 2018-10-24 04:17:02 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/orden"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:17:09 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Completed 200 OK in 18051ms (Views: 17970.1ms | ActiveRecord: 10.0ms)
+
+
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 560ms (Views: 520.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:17:31 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.6ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 663ms (Views: 533.3ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:17:36 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (65.5ms)
+  Rendered ordens/new.html.erb within layouts/application (109.5ms)
+Completed 200 OK in 638ms (Views: 573.4ms | ActiveRecord: 10.4ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:17:50 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p1E2yw5eo9IjvoMcH5JD1ItjNiVZWCnim9Kh4tdh+jPBOzt6df3HnuSQTI+tPCHEeey6g3VfnybquF9EgtGuyQ==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 0.4ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:19:27 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.5ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 480ms (Views: 429.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:19:29 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.1ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 457ms (Views: 411.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/clientes/new" for 172.28.128.1 at 2018-10-24 04:19:31 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#new as HTML
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 506ms (Views: 442.8ms | ActiveRecord: 7.9ms)
+
+
+Started POST "/clientes" for 172.28.128.1 at 2018-10-24 04:19:36 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GmArO7aRE/Ki2ZJ7B2NEH8svjNHjsIKVj4a3brXOMAHarIgFac6Ly4RMTxgZEZ4IhLnke+e8QMTMfbShETZjeg==", "cliente"=>{"rfc"=>"12345", "nombre_cliente"=>"Juventino"}, "commit"=>"Create Cliente"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/clientes_controller.rb:14
+  [1m[36mCliente Create (11.1ms)[0m  [1m[32mINSERT INTO "clientes" ("rfc", "nombre_cliente", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["rfc", 12345], ["nombre_cliente", "Juventino"], ["created_at", "2018-10-24 04:19:36.250044"], ["updated_at", "2018-10-24 04:19:36.250044"]]
+  ↳ app/controllers/clientes_controller.rb:14
+  [1m[35m (10.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/clientes_controller.rb:14
+Redirected to http://172.28.128.4:3000/clientes
+Completed 302 Found in 43ms (ActiveRecord: 22.2ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:19:36 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (4.2ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 524ms (Views: 485.0ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 04:19:40 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.5ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:16
+  Rendered productos/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 466ms (Views: 414.6ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/productos/new" for 172.28.128.1 at 2018-10-24 04:19:42 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#new as HTML
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 514ms (Views: 449.1ms | ActiveRecord: 7.7ms)
+
+
+Started POST "/productos" for 172.28.128.1 at 2018-10-24 04:19:46 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rRSzCvksJqUI+wgocryM6MYByMy3aX4be9ETGlbo1BLvdeuTrd5LLcN12XmEJMjJstEvNGjwZljjzWPPIU6w3w==", "producto"=>{"nombre_producto"=>"asd", "precio"=>"1"}, "commit"=>"Create Producto"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/productos_controller.rb:13
+  [1m[36mProducto Create (11.0ms)[0m  [1m[32mINSERT INTO "productos" ("nombre_producto", "precio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre_producto", "asd"], ["precio", 1], ["created_at", "2018-10-24 04:19:46.443946"], ["updated_at", "2018-10-24 04:19:46.443946"]]
+  ↳ app/controllers/productos_controller.rb:13
+  [1m[35m (19.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/productos_controller.rb:13
+Redirected to http://172.28.128.4:3000/productos
+Completed 302 Found in 50ms (ActiveRecord: 30.4ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 04:19:46 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (3.1ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:16
+  Rendered productos/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 467ms (Views: 427.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:19:50 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 477ms (Views: 427.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:21:10 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.3ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 527ms (Views: 477.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:21:12 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (7.7ms)
+  Rendered ordens/new.html.erb within layouts/application (54.4ms)
+Completed 200 OK in 582ms (Views: 538.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:21:17 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c8OObCK12lQfLczxUWV90rgbewfeUow34ONyvO/ug24VqYPdWRa+GNgDA2Ljyx/CSpT3ofJVOvORiYwaul7XlA==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.5ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:21:41 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (3.0ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  Rendered detalle_ordens/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 536ms (Views: 461.0ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/detalle_ordens/new" for 172.28.128.1 at 2018-10-24 04:21:43 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#new as HTML
+  Rendering detalle_ordens/new.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (6.3ms)
+  Rendered detalle_ordens/new.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 575ms (Views: 495.6ms | ActiveRecord: 10.7ms)
+
+
+Started POST "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:21:49 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jSYmLmWZ2mwkO52U9ssKcP7yHwySin89pIgGqY7ROO0/XQI/GCBqwU0XRadle0X05eVpCYVV2Tcb09tp+dRoSA==", "detalle_orden"=>{"producto_id"=>"1", "cantidad"=>"1", "precio"=>"8"}, "commit"=>"Create Detalle orden"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mProducto Load (2.3ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mDetalleOrden Create (8.9ms)[0m  [1m[32mINSERT INTO "detalle_ordens" ("producto_id", "cantidad", "precio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["producto_id", 1], ["cantidad", 1], ["precio", 8], ["created_at", "2018-10-24 04:21:50.098745"], ["updated_at", "2018-10-24 04:21:50.098745"]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+Redirected to http://172.28.128.4:3000/detalle_ordens/1
+Completed 302 Found in 125ms (ActiveRecord: 24.4ms)
+
+
+Started GET "/detalle_ordens/1" for 172.28.128.1 at 2018-10-24 04:21:50 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDetalleOrden Load (4.8ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+  Rendering detalle_ordens/show.html.erb within layouts/application
+  [1m[36mProducto Load (2.0ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/show.html.erb:5
+  Rendered detalle_ordens/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 499ms (Views: 452.0ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:21:56 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.6ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 552ms (Views: 497.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:21:58 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (9.5ms)
+  Rendered ordens/new.html.erb within layouts/application (50.5ms)
+Completed 200 OK in 544ms (Views: 497.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:22:02 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U6mJNYrpCvYvFD+yIDpyBur6z7nxi3dJt/oJWKiHrzc1w4SE8Upuuug68CGSlBAWGHVDH92MwY3GkPf+/Tf7zQ==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.3ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:22:24 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (3.2ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 482ms (Views: 431.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:22:30 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (7.7ms)
+  Rendered ordens/new.html.erb within layouts/application (46.4ms)
+Completed 200 OK in 543ms (Views: 489.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:22:37 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EfjOgAuuHpwvMcz6O0XpKuCeOylN02rHGUc7nrI2p9h3ksMxcA160OgfA2mJ64s6EhG3j2HU3ANoLcU454bzIg==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.3ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:23:40 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.8ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 1989ms (Views: 1904.3ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:23:45 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (44.1ms)
+  Rendered ordens/new.html.erb within layouts/application (79.8ms)
+Completed 200 OK in 603ms (Views: 531.6ms | ActiveRecord: 9.7ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:23:51 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fcYB9SLm/6ANIxFdUzXYR1UjqsDdy/ggBqr81b6C0kgbrAxEWUWb7MoN3s7hm7pXp6wmZvHMTuR3wAJz6zKGsg==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.5ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:24:00 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"etHeaTA2es0/wbyfSXXNA58nCdqbUWNoGMDLvr0zWw2hosNyXKC9iZUkS88NovBaIi33G5/CSzrHx17wpMhD2g==", "orden"=>{"clientes_id"=>"0", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.5ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started GET "/ordens/clientes" for 172.28.128.1 at 2018-10-24 04:24:06 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#show as HTML
+  Parameters: {"id"=>"clientes"}
+  [1m[36mOrden Load (3.3ms)[0m  [1m[34mSELECT  "ordens".* FROM "ordens" WHERE "ordens"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/ordens_controller.rb:67
+Completed 404 Not Found in 76ms (ActiveRecord: 3.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Orden with 'id'=clientes):
+  
+app/controllers/ordens_controller.rb:67:in `set_orden'
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:24:07 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (9.5ms)
+  Rendered ordens/new.html.erb within layouts/application (47.4ms)
+Completed 200 OK in 526ms (Views: 482.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:24:09 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (1.9ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 493ms (Views: 443.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:24:12 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 497ms (Views: 457.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:24:13 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.6ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 536ms (Views: 467.0ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:24:28 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (9.8ms)
+  Rendered ordens/new.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 569ms (Views: 517.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:24:32 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9DBiSM0AxA378+02pv9n6wqAy/viM/SqgtBxNYhzHD2SWm/5tqOgQTzdIqUUUQX7+A9HXc40Qm7zuo+T3cNIxw==", "orden"=>{"clientes_id"=>"12345", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.3ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:25:31 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9730ms (Views: 9679.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:25:40 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 536ms (Views: 494.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:25:52 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:25:56 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.2ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 11863ms (Views: 11818.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 8526ms (Views: 8457.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:26:11 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (3.1ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 575ms (Views: 527.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:26:14 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (8.1ms)
+  Rendered ordens/new.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 551ms (Views: 503.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:27:18 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"phzcjDs4/Zmt/hAMwtc3DKvjXEgeQpPCW1mKJ7Zf8pTAdtE9QJuZ1WrQ359weVUcWWzQ7jJFJQYqM3SB4++mbg==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.2ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:27:38 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.6ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 500ms (Views: 446.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:27:45 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (2.7ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.4ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 661ms (Views: 590.9ms | ActiveRecord: 25.7ms)
+
+
+Started GET "/detalle_ordens/new" for 172.28.128.1 at 2018-10-24 04:27:50 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#new as HTML
+  Rendering detalle_ordens/new.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (6.3ms)
+  Rendered detalle_ordens/new.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 536ms (Views: 482.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:27:58 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ohmsaPPDutd6Fw809jJP/jwca/54t5MGIZMP3m9VppAQYoh5jnoKehM71wdlggB6Jwsd+29oNQyeyNIeGFD2NQ==", "detalle_orden"=>{"producto_id"=>"1", "cantidad"=>"1", "precio"=>"5"}, "commit"=>"Create Detalle orden"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mProducto Load (3.5ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mDetalleOrden Create (8.1ms)[0m  [1m[32mINSERT INTO "detalle_ordens" ("producto_id", "cantidad", "precio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["producto_id", 1], ["cantidad", 1], ["precio", 5], ["created_at", "2018-10-24 04:27:58.340487"], ["updated_at", "2018-10-24 04:27:58.340487"]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[35m (11.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+Redirected to http://172.28.128.4:3000/detalle_ordens/2
+Completed 302 Found in 52ms (ActiveRecord: 23.1ms)
+
+
+Started GET "/detalle_ordens/2" for 172.28.128.1 at 2018-10-24 04:27:58 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDetalleOrden Load (3.6ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+  Rendering detalle_ordens/show.html.erb within layouts/application
+  [1m[36mProducto Load (2.3ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/show.html.erb:5
+  Rendered detalle_ordens/show.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 505ms (Views: 460.5ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/detalle_ordens/productos" for 172.28.128.1 at 2018-10-24 04:28:04 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#show as HTML
+  Parameters: {"id"=>"productos"}
+  [1m[36mDetalleOrden Load (3.7ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+Completed 404 Not Found in 13ms (ActiveRecord: 3.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find DetalleOrden with 'id'=productos):
+  
+app/controllers/detalle_ordens_controller.rb:67:in `set_detalle_orden'
+Started GET "/detalle_ordens/2" for 172.28.128.1 at 2018-10-24 04:28:06 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDetalleOrden Load (3.4ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+  Rendering detalle_ordens/show.html.erb within layouts/application
+  [1m[36mProducto Load (1.9ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/show.html.erb:5
+  Rendered detalle_ordens/show.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 504ms (Views: 450.6ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:28:07 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 493ms (Views: 447.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 04:28:09 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.6ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:16
+  Rendered productos/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 494ms (Views: 452.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/productos/new" for 172.28.128.1 at 2018-10-24 04:28:11 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#new as HTML
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 536ms (Views: 491.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/productos" for 172.28.128.1 at 2018-10-24 04:28:15 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S90SonMxCgggdn+vvM/5akTAcqBEggSxtYvYlP5XlQgJvEo7J8NngOv4rv5KV71LMBCVWJsbHPItl6hBifHxxQ==", "producto"=>{"nombre_producto"=>"coca", "precio"=>"14"}, "commit"=>"Create Producto"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/productos_controller.rb:13
+  [1m[36mProducto Create (12.3ms)[0m  [1m[32mINSERT INTO "productos" ("nombre_producto", "precio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre_producto", "coca"], ["precio", 14], ["created_at", "2018-10-24 04:28:15.318373"], ["updated_at", "2018-10-24 04:28:15.318373"]]
+  ↳ app/controllers/productos_controller.rb:13
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/productos_controller.rb:13
+Redirected to http://172.28.128.4:3000/productos
+Completed 302 Found in 42ms (ActiveRecord: 22.6ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 04:28:15 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (3.3ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:16
+  Rendered productos/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 524ms (Views: 487.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:28:25 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (3.0ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.6ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mCACHE Producto Load (0.0ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 561ms (Views: 509.4ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:28:34 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.1ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 501ms (Views: 452.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:28:37 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (8.2ms)
+  Rendered ordens/new.html.erb within layouts/application (48.7ms)
+Completed 200 OK in 544ms (Views: 496.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:28:48 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tpq0BTW7nadXWhwnFhhqzwMRiE3LOzM588u7D8WG6pco8Lm0Thj565B007Sktgjf8Z4E6+c8hf2CoUWpkDa+bQ==", "orden"=>{"clientes_id"=>"juv", "num_orden"=>"2", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.3ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:28:52 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zy73DXVsfHDNmeZmF3UPkJkcVcvVEe4nPDashzm12hgUXeoWGfq7NGd8ETZTojLJJBarCtGCxnXjMTnJIE7Czw==", "orden"=>{"clientes_id"=>"asd", "num_orden"=>"2", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.6ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:29:11 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zy73DXVsfHDNmeZmF3UPkJkcVcvVEe4nPDashzm12hgUXeoWGfq7NGd8ETZTojLJJBarCtGCxnXjMTnJIE7Czw==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"2", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.3ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:30:25 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zy73DXVsfHDNmeZmF3UPkJkcVcvVEe4nPDashzm12hgUXeoWGfq7NGd8ETZTojLJJBarCtGCxnXjMTnJIE7Czw==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"2", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.2ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:32:14 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 4505ms (Views: 4444.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:32:21 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.7ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 514ms (Views: 448.6ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/clientes/new" for 172.28.128.1 at 2018-10-24 04:32:23 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#new as HTML
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/new.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 538ms (Views: 482.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clientes" for 172.28.128.1 at 2018-10-24 04:32:29 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XYu3yiaOYhb5WSQTaPC/maM6+mlQ+6zA3HZT7IOdjDadRxT0+dH6L9/M+XB2gmWO7KySw1T3bpGfjVAjJ2XfTQ==", "cliente"=>{"rfc"=>"789", "nombre_cliente"=>"juv"}, "commit"=>"Create Cliente"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/clientes_controller.rb:14
+  [1m[36mCliente Create (11.3ms)[0m  [1m[32mINSERT INTO "clientes" ("rfc", "nombre_cliente", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["rfc", 789], ["nombre_cliente", "juv"], ["created_at", "2018-10-24 04:32:29.889057"], ["updated_at", "2018-10-24 04:32:29.889057"]]
+  ↳ app/controllers/clientes_controller.rb:14
+  [1m[35m (9.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/clientes_controller.rb:14
+Redirected to http://172.28.128.4:3000/clientes
+Completed 302 Found in 37ms (ActiveRecord: 20.7ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:32:29 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (3.6ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 503ms (Views: 455.0ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:32:37 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (3.5ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.6ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mCACHE Producto Load (0.1ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (104.2ms)
+Completed 200 OK in 671ms (Views: 586.1ms | ActiveRecord: 29.7ms)
+
+
+Started GET "/detalle_ordens/1" for 172.28.128.1 at 2018-10-24 04:32:41 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDetalleOrden Load (3.7ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+  Rendering detalle_ordens/show.html.erb within layouts/application
+  [1m[36mProducto Load (2.4ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/show.html.erb:5
+  Rendered detalle_ordens/show.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 511ms (Views: 457.8ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:32:43 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (3.2ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.7ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mCACHE Producto Load (0.1ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 566ms (Views: 507.3ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/detalle_ordens/1/edit" for 172.28.128.1 at 2018-10-24 04:32:44 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDetalleOrden Load (3.5ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+  Rendering detalle_ordens/edit.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (10.3ms)
+  Rendered detalle_ordens/edit.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 588ms (Views: 532.2ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:32:46 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (2.6ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.3ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mCACHE Producto Load (0.1ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 587ms (Views: 522.4ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/detalle_ordens/new" for 172.28.128.1 at 2018-10-24 04:32:49 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#new as HTML
+  Rendering detalle_ordens/new.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (7.1ms)
+  Rendered detalle_ordens/new.html.erb within layouts/application (44.2ms)
+Completed 200 OK in 577ms (Views: 523.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:32:57 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GrcXumKozuZp74ePXa4SHF0IYJ/glzY2B6DPu/7qseqozDOrHxF+SwDDX7zOHl2YRh8WmvdIkDy4+xJ7ie/hTw==", "detalle_orden"=>{"producto_id"=>"galletas", "cantidad"=>"1", "precio"=>"1"}, "commit"=>"Create Detalle orden"}
+  [1m[35m (1.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mProducto Load (2.9ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  Rendering detalle_ordens/new.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (8.2ms)
+  Rendered detalle_ordens/new.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 561ms (Views: 532.3ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 04:33:06 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.5ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:16
+  Rendered productos/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 648ms (Views: 599.2ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:33:11 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IV2ou3bIX7rMkfVLXjForYOX72+MX+q6JjRCR9uOk9v6LrWgGl6Y/mZ0Ahsa5lX0Pp0RrojMwuj5M9cJwnWLDA==", "detalle_orden"=>{"producto_id"=>"coca", "cantidad"=>"1", "precio"=>"1"}, "commit"=>"Create Detalle orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mProducto Load (2.3ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  Rendering detalle_ordens/new.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (6.1ms)
+  Rendered detalle_ordens/new.html.erb within layouts/application (54.5ms)
+Completed 200 OK in 544ms (Views: 522.5ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:33:13 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nuyYJGdu7odFHlDNIXj9LIZ1QYOv4djeyhRaMuje+I9Fn4U/C/gpw+/7p51lr8B1O3+/Qqty8IwVE8988SXgWA==", "detalle_orden"=>{"producto_id"=>"coca", "cantidad"=>"1", "precio"=>"1"}, "commit"=>"Create Detalle orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mProducto Load (2.8ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  Rendering detalle_ordens/new.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (6.3ms)
+  Rendered detalle_ordens/new.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 530ms (Views: 509.9ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:33:18 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dxUFA2+W8feht4iRHq/7gv4etSP3BDIarxTJrgrRke2sZhgYAwA2swtSf8FaeMbbQxRL4vOXGkhwE1zgEyqJOg==", "detalle_orden"=>{"producto_id"=>"2", "cantidad"=>"1", "precio"=>"1"}, "commit"=>"Create Detalle orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mProducto Load (5.1ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mDetalleOrden Create (9.5ms)[0m  [1m[32mINSERT INTO "detalle_ordens" ("producto_id", "cantidad", "precio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["producto_id", 2], ["cantidad", 1], ["precio", 1], ["created_at", "2018-10-24 04:33:18.312888"], ["updated_at", "2018-10-24 04:33:18.312888"]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+Redirected to http://172.28.128.4:3000/detalle_ordens/3
+Completed 302 Found in 47ms (ActiveRecord: 24.4ms)
+
+
+Started GET "/detalle_ordens/3" for 172.28.128.1 at 2018-10-24 04:33:18 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDetalleOrden Load (3.9ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+  Rendering detalle_ordens/show.html.erb within layouts/application
+  [1m[36mProducto Load (2.1ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/show.html.erb:5
+  Rendered detalle_ordens/show.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 523ms (Views: 474.7ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:33:23 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (2.5ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.6ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mCACHE Producto Load (0.0ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mProducto Load (2.5ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 521ms (Views: 463.0ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:33:32 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.9ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 487ms (Views: 434.3ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:33:35 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (12.1ms)
+  Rendered ordens/new.html.erb within layouts/application (54.8ms)
+Completed 200 OK in 594ms (Views: 530.9ms | ActiveRecord: 7.2ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:33:48 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5ig1PgPhvQXe7yudWxyluZpAe6lfAYDF2CyX98eo3IuAQjiPeELZSRnB5A7pssepaM/3D3MGNgGpRmlRkhiIcQ==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"3", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"29"}, "commit"=>"Create Orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.3ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:39:42 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1982ms (Views: 1918.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:39:48 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (3.0ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 532ms (Views: 461.0ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:39:50 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (47.2ms)
+  Rendered ordens/new.html.erb within layouts/application (85.9ms)
+Completed 200 OK in 608ms (Views: 535.3ms | ActiveRecord: 10.5ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:39:54 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1148uzq42ddCX+LaKSHfqr6Pw3f9aN+XgoOp8ySrQauxNDEKQRu9m4VxLUmbj726TABP0dFvaVPz6VdVcRsVUQ==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.6ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:40:05 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (2.4ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.2ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mCACHE Producto Load (0.0ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mProducto Load (3.0ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (106.0ms)
+Completed 200 OK in 592ms (Views: 507.3ms | ActiveRecord: 30.0ms)
+
+
+Started GET "/detalle_ordens/new" for 172.28.128.1 at 2018-10-24 04:40:41 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#new as HTML
+  Rendering detalle_ordens/new.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (5.9ms)
+  Rendered detalle_ordens/new.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 532ms (Views: 484.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:40:54 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gg7jauSCjgU7F4tIj0h1AU/UxloULWTbnk2pd1QOG62odcd7mTs+qFI7U3sc+DqFVMOwXwPywtEhFnS3IwtLCA==", "detalle_orden"=>{"producto_id"=>"2", "cantidad"=>"2", "precio"=>"4"}, "commit"=>"Create Detalle orden"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mProducto Load (2.7ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mDetalleOrden Create (8.2ms)[0m  [1m[32mINSERT INTO "detalle_ordens" ("producto_id", "cantidad", "precio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["producto_id", 2], ["cantidad", 2], ["precio", 4], ["created_at", "2018-10-24 04:40:54.851832"], ["updated_at", "2018-10-24 04:40:54.851832"]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[35m (12.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+Redirected to http://172.28.128.4:3000/detalle_ordens/4
+Completed 302 Found in 46ms (ActiveRecord: 23.0ms)
+
+
+Started GET "/detalle_ordens/4" for 172.28.128.1 at 2018-10-24 04:40:54 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDetalleOrden Load (3.7ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+  Rendering detalle_ordens/show.html.erb within layouts/application
+  [1m[36mProducto Load (2.4ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/show.html.erb:5
+  Rendered detalle_ordens/show.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 513ms (Views: 468.7ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:40:57 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (2.6ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.5ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mCACHE Producto Load (0.0ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mProducto Load (2.6ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  [1m[36mCACHE Producto Load (0.0ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 553ms (Views: 497.3ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:41:03 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.8ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 523ms (Views: 475.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:41:06 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (8.3ms)
+  Rendered ordens/new.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 527ms (Views: 472.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:41:11 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Aj/aQXXX5P+zuLtSixcVqmRNNH9WMpAi9B6Jpxyta9hkVdfwDnSAs3SWdME5uXe6lsK42Xo1JuaFdHcBSR0/Ig==", "orden"=>{"clientes_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 0.6ms)
+
+
+  
+NameError (uninitialized constant Orden::Clientes):
+  
+app/controllers/ordens_controller.rb:30:in `block in create'
+app/controllers/ordens_controller.rb:29:in `create'
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:45:51 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.5ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 555ms (Views: 507.7ms | ActiveRecord: 2.5ms)
+
+
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateOrdens (20181024045004)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20181024045004_create_ordens.rb:3
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "ordens" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "cliente_id" integer, "num_orden" integer, "fecha" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_f65f6c0955"
+FOREIGN KEY ("cliente_id")
+  REFERENCES "clientes" ("id")
+)[0m
+  ↳ db/migrate/20181024045004_create_ordens.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:51:00 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:51:08 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/detalle_ordens/new" for 172.28.128.1 at 2018-10-24 04:51:20 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:51:25 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (13.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (15.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateProductos (20181021224500)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "productos" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre_producto" varchar, "precio" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20181021224500_create_productos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181021224500"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateClientes (20181022231905)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (10.8ms)[0m  [1m[35mCREATE TABLE "clientes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "rfc" integer, "nombre_cliente" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "clientes_id" integer, CONSTRAINT "fk_rails_4c0eb2349a"
+FOREIGN KEY ("clientes_id")
+  REFERENCES "clientes" ("id")
+)[0m
+  ↳ db/migrate/20181022231905_create_clientes.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_clientes_on_clientes_id" ON "clientes" ("clientes_id")[0m
+  ↳ db/migrate/20181022231905_create_clientes.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181022231905"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateDetalleOrdens (20181024035414)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (10.7ms)[0m  [1m[35mCREATE TABLE "detalle_ordens" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "producto_id" integer, "cantidad" integer, "precio" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_4e79a4ec83"
+FOREIGN KEY ("producto_id")
+  REFERENCES "productos" ("id")
+)[0m
+  ↳ db/migrate/20181024035414_create_detalle_ordens.rb:3
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX "index_detalle_ordens_on_producto_id" ON "detalle_ordens" ("producto_id")[0m
+  ↳ db/migrate/20181024035414_create_detalle_ordens.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181024035414"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (8.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateOrdens (20181024045004)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (11.5ms)[0m  [1m[35mCREATE TABLE "ordens" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "cliente_id" integer, "num_orden" integer, "fecha" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_f65f6c0955"
+FOREIGN KEY ("cliente_id")
+  REFERENCES "clientes" ("id")
+)[0m
+  ↳ db/migrate/20181024045004_create_ordens.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_ordens_on_cliente_id" ON "ordens" ("cliente_id")[0m
+  ↳ db/migrate/20181024045004_create_ordens.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181024045004"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (9.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (2.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (8.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-10-24 04:54:32.780954"], ["updated_at", "2018-10-24 04:54:32.780954"]]
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 04:54:49 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductosController#index as HTML
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:54:50 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.1ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:16
+  Rendered productos/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 4329ms (Views: 4212.5ms | ActiveRecord: 7.0ms)
+
+
+Processing by PagesController#index as HTML
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:54:54 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 471ms (Views: 428.0ms | ActiveRecord: 0.0ms)
+
+
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.7ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 531ms (Views: 475.0ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:54:55 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.1ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 456ms (Views: 418.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:54:57 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 486ms (Views: 436.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:55:00 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.4ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 534ms (Views: 479.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 04:55:01 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 535ms (Views: 444.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:55:02 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.6ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 524ms (Views: 474.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/clientes/new" for 172.28.128.1 at 2018-10-24 04:55:04 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#new as HTML
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/new.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 587ms (Views: 502.0ms | ActiveRecord: 20.4ms)
+
+
+Started POST "/clientes" for 172.28.128.1 at 2018-10-24 04:55:08 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kgrXgFUNskYA5zH4ciAmzm6TjFL7c9Wnkt+f/SbPmsVSxnS+ilIqfyZy7JtsUvzZIQXk+P9/F/bRJJwygjfJvg==", "cliente"=>{"rfc"=>"12345", "nombre_cliente"=>"Juventino Perez"}, "commit"=>"Create Cliente"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/clientes_controller.rb:14
+  [1m[36mCliente Create (11.2ms)[0m  [1m[32mINSERT INTO "clientes" ("rfc", "nombre_cliente", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["rfc", 12345], ["nombre_cliente", "Juventino Perez"], ["created_at", "2018-10-24 04:55:08.070768"], ["updated_at", "2018-10-24 04:55:08.070768"]]
+  ↳ app/controllers/clientes_controller.rb:14
+  [1m[35m (10.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/clientes_controller.rb:14
+Redirected to http://172.28.128.4:3000/clientes
+Completed 302 Found in 41ms (ActiveRecord: 22.1ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 04:55:08 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (3.6ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:14
+  Rendered clientes/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 497ms (Views: 459.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 04:55:09 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.8ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:16
+  Rendered productos/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 527ms (Views: 471.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/productos/new" for 172.28.128.1 at 2018-10-24 04:55:10 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#new as HTML
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 540ms (Views: 475.2ms | ActiveRecord: 8.2ms)
+
+
+Started POST "/productos" for 172.28.128.1 at 2018-10-24 04:55:14 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DU+pGdQfZAxWM8SY0rlSYFBr6LXaQja2olHkN+bTA2BPLvGAgO0JhJ29FckkIRZBJLsPTQXbLvU6TZTikXVnrQ==", "producto"=>{"nombre_producto"=>"Coca-cola", "precio"=>"14"}, "commit"=>"Create Producto"}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/productos_controller.rb:13
+  [1m[36mProducto Create (11.8ms)[0m  [1m[32mINSERT INTO "productos" ("nombre_producto", "precio", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["nombre_producto", "Coca-cola"], ["precio", 14], ["created_at", "2018-10-24 04:55:14.393419"], ["updated_at", "2018-10-24 04:55:14.393419"]]
+  ↳ app/controllers/productos_controller.rb:13
+  [1m[35m (10.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/productos_controller.rb:13
+Redirected to http://172.28.128.4:3000/productos
+Completed 302 Found in 40ms (ActiveRecord: 22.8ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 04:55:14 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (3.8ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:16
+  Rendered productos/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 500ms (Views: 459.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:55:20 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (2.7ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  Rendered detalle_ordens/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 519ms (Views: 461.0ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/detalle_ordens/new" for 172.28.128.1 at 2018-10-24 04:55:22 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#new as HTML
+  Rendering detalle_ordens/new.html.erb within layouts/application
+  Rendered detalle_ordens/_form.html.erb (9.6ms)
+  Rendered detalle_ordens/new.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 561ms (Views: 491.7ms | ActiveRecord: 7.7ms)
+
+
+Started POST "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:55:31 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6fIN8DzIeVxyy8SFiN7XWuEut1dEqvzvcXNBuc/mgxVbiSnhQXHJ8RvnHLYbbpje+jnBUlN1WuXOKJx5uOPTsA==", "detalle_orden"=>{"producto_id"=>"1", "cantidad"=>"4", "precio"=>"20"}, "commit"=>"Create Detalle orden"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mProducto Load (2.5ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[36mDetalleOrden Create (9.5ms)[0m  [1m[32mINSERT INTO "detalle_ordens" ("producto_id", "cantidad", "precio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["producto_id", 1], ["cantidad", 4], ["precio", 20], ["created_at", "2018-10-24 04:55:31.569141"], ["updated_at", "2018-10-24 04:55:31.569141"]]
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+  [1m[35m (10.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/detalle_ordens_controller.rb:30
+Redirected to http://172.28.128.4:3000/detalle_ordens/1
+Completed 302 Found in 73ms (ActiveRecord: 22.7ms)
+
+
+Started GET "/detalle_ordens/1" for 172.28.128.1 at 2018-10-24 04:55:31 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDetalleOrden Load (4.6ms)[0m  [1m[34mSELECT  "detalle_ordens".* FROM "detalle_ordens" WHERE "detalle_ordens"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/detalle_ordens_controller.rb:67
+  Rendering detalle_ordens/show.html.erb within layouts/application
+  [1m[36mProducto Load (1.8ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/show.html.erb:5
+  Rendered detalle_ordens/show.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 499ms (Views: 451.0ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/detalle_ordens" for 172.28.128.1 at 2018-10-24 04:55:33 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DetalleOrdensController#index as HTML
+  Rendering detalle_ordens/index.html.erb within layouts/application
+  [1m[36mDetalleOrden Load (2.3ms)[0m  [1m[34mSELECT "detalle_ordens".* FROM "detalle_ordens"[0m
+  ↳ app/views/detalle_ordens/index.html.erb:16
+  [1m[36mProducto Load (2.3ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/detalle_ordens/index.html.erb:18
+  Rendered detalle_ordens/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 532ms (Views: 468.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:55:38 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.7ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  Rendered ordens/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 527ms (Views: 455.0ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:55:40 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (12.6ms)
+  Rendered ordens/new.html.erb within layouts/application (47.8ms)
+Completed 200 OK in 570ms (Views: 495.7ms | ActiveRecord: 7.3ms)
+
+
+Started POST "/ordens" for 172.28.128.1 at 2018-10-24 04:55:45 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RCBiJ7Xgnkvx2sm5hWGvtKQYDTVdqXyDNJIgdnD3kfwiSm+WzkP6Bzb0Bio3z82kVpeBk3GuykdF+N7QJUfFBg==", "orden"=>{"cliente_id"=>"1", "num_orden"=>"1", "fecha(1i)"=>"2018", "fecha(2i)"=>"10", "fecha(3i)"=>"24"}, "commit"=>"Create Orden"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[36mCliente Load (2.8ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[36mOrden Create (10.1ms)[0m  [1m[32mINSERT INTO "ordens" ("cliente_id", "num_orden", "fecha", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["cliente_id", 1], ["num_orden", 1], ["fecha", "2018-10-24"], ["created_at", "2018-10-24 04:55:45.235779"], ["updated_at", "2018-10-24 04:55:45.235779"]]
+  ↳ app/controllers/ordens_controller.rb:30
+  [1m[35m (13.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/ordens_controller.rb:30
+Redirected to http://172.28.128.4:3000/ordens/1
+Completed 302 Found in 61ms (ActiveRecord: 26.8ms)
+
+
+Started GET "/ordens/1" for 172.28.128.1 at 2018-10-24 04:55:45 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrden Load (5.5ms)[0m  [1m[34mSELECT  "ordens".* FROM "ordens" WHERE "ordens"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/ordens_controller.rb:67
+  Rendering ordens/show.html.erb within layouts/application
+  [1m[36mCliente Load (2.6ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/ordens/show.html.erb:5
+  Rendered ordens/show.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 553ms (Views: 492.9ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:55:48 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.3ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  [1m[36mCliente Load (2.5ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/ordens/index.html.erb:18
+  Rendered ordens/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 473ms (Views: 423.5ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:58:44 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.7ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  [1m[36mCliente Load (2.2ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/ordens/index.html.erb:18
+  Rendered ordens/index.html.erb within layouts/application (105.9ms)
+Started GET "/ordens" for 172.28.128.1 at 2018-10-24 04:58:49 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#index as HTML
+  Rendering ordens/index.html.erb within layouts/application
+  [1m[36mOrden Load (2.8ms)[0m  [1m[34mSELECT "ordens".* FROM "ordens"[0m
+  ↳ app/views/ordens/index.html.erb:16
+  [1m[36mCliente Load (2.8ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/ordens/index.html.erb:18
+  Rendered ordens/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 3490ms (Views: 3368.3ms | ActiveRecord: 5.6ms)
+
+
+Completed 200 OK in 8744ms (Views: 8636.9ms | ActiveRecord: 26.1ms)
+
+
+Started GET "/ordens/new" for 172.28.128.1 at 2018-10-24 04:58:55 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by OrdensController#new as HTML
+  Rendering ordens/new.html.erb within layouts/application
+  Rendered ordens/_form.html.erb (46.8ms)
+  Rendered ordens/new.html.erb within layouts/application (80.3ms)
+Completed 200 OK in 582ms (Views: 528.4ms | ActiveRecord: 0.0ms)
+
+

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
  
+  resources :ordens
+  resources :detalle_ordens
   resources :clientes
   resources :productos
 

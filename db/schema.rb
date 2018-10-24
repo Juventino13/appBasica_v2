@@ -10,13 +10,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_22_231905) do
+ActiveRecord::Schema.define(version: 2018_10_24_045004) do
 
   create_table "clientes", force: :cascade do |t|
     t.integer "rfc"
     t.string "nombre_cliente"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "clientes_id"
+    t.index ["clientes_id"], name: "index_clientes_on_clientes_id"
+  end
+
+  create_table "detalle_ordens", force: :cascade do |t|
+    t.integer "producto_id"
+    t.integer "cantidad"
+    t.integer "precio"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["producto_id"], name: "index_detalle_ordens_on_producto_id"
+  end
+
+  create_table "ordens", force: :cascade do |t|
+    t.integer "cliente_id"
+    t.integer "num_orden"
+    t.date "fecha"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["cliente_id"], name: "index_ordens_on_cliente_id"
   end
 
   create_table "productos", force: :cascade do |t|

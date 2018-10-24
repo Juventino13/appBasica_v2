@@ -5,6 +5,7 @@ class CreateClientes < ActiveRecord::Migration[5.2]
       t.string :nombre_cliente
 
       t.timestamps
+      t.references :clientes, foreign_key: true
     end
   end
 end

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente: one
+  num_orden: 1
+  fecha: 2018-10-24
+
+two:
+  cliente: two
+  num_orden: 1
+  fecha: 2018-10-24
