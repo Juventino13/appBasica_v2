@@ -5038,3 +5038,620 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 385ms (Views: 338.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:02:24 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/vagrant/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 4594ms (Views: 4535.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:02:31 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.7ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 452ms (Views: 382.2ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:02:33 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.9ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:14
+  Rendered productos/index.html.erb within layouts/application (36.7ms)
+Completed 200 OK in 451ms (Views: 372.4ms | ActiveRecord: 16.8ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:02:34 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.3ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 414ms (Views: 358.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:02:35 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 411ms (Views: 351.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:02:36 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.6ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 421ms (Views: 367.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:02:37 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.9ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:14
+  Rendered productos/index.html.erb within layouts/application (10.0ms)
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:02:37 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+Completed 200 OK in 549ms (Views: 488.6ms | ActiveRecord: 2.9ms)
+
+
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.7ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 396ms (Views: 350.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:02:38 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:02:38 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (1.8ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 598ms (Views: 539.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 404ms (Views: 361.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:06:14 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (3.8ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 469ms (Views: 421.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:06:16 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.3ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 416ms (Views: 362.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:06:18 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.4ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 428ms (Views: 376.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/clientes/1/edit" for 172.28.128.1 at 2018-10-24 03:06:19 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCliente Load (2.4ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/clientes_controller.rb:22
+  Rendering clientes/edit.html.erb within layouts/application
+  Rendered clientes/edit.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 510ms (Views: 403.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/clientes/1/productos" for 172.28.128.1 at 2018-10-24 03:06:21 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/clientes/1/productos"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/clientes/1/edit" for 172.28.128.1 at 2018-10-24 03:06:22 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCliente Load (3.3ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/clientes_controller.rb:22
+  Rendering clientes/edit.html.erb within layouts/application
+  Rendered clientes/edit.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 439ms (Views: 386.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:06:24 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 397ms (Views: 345.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:06:25 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.0ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:14
+  Rendered productos/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 403ms (Views: 349.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/productos/2/edit" for 172.28.128.1 at 2018-10-24 03:06:28 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProducto Load (3.4ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/productos_controller.rb:21
+  Rendering productos/edit.html.erb within layouts/application
+  Rendered productos/edit.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 454ms (Views: 400.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/productos/new" for 172.28.128.1 at 2018-10-24 03:06:33 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#new as HTML
+  Rendering productos/new.html.erb within layouts/application
+  Rendered productos/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 400ms (Views: 345.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:07:12 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 489ms (Views: 441.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:08:38 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 444ms (Views: 397.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:09:53 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 400ms (Views: 357.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:10:07 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 565ms (Views: 517.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:10:24 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.3ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:11
+  Rendered clientes/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 408ms (Views: 349.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:10:59 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.7ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:12
+  Rendered clientes/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 395ms (Views: 344.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:11:12 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.0ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:12
+  Rendered clientes/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 423ms (Views: 371.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:11:14 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.6ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:14
+  Rendered productos/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 407ms (Views: 353.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/productos/1/edit" for 172.28.128.1 at 2018-10-24 03:11:23 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProducto Load (5.6ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/productos_controller.rb:21
+  Rendering productos/edit.html.erb within layouts/application
+  Rendered productos/edit.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 421ms (Views: 357.3ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/productos/1/clientes" for 172.28.128.1 at 2018-10-24 03:11:35 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/productos/1/clientes"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/productos/1/edit" for 172.28.128.1 at 2018-10-24 03:11:37 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProducto Load (5.5ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/productos_controller.rb:21
+  Rendering productos/edit.html.erb within layouts/application
+  Rendered productos/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 429ms (Views: 371.6ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:11:38 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.4ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:15
+  Rendered productos/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 419ms (Views: 365.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:11:39 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 426ms (Views: 373.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:11:40 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.6ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:12
+  Rendered clientes/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 431ms (Views: 376.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:11:42 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.5ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:15
+  Rendered productos/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 424ms (Views: 358.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:11:47 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (1.9ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:12
+  Rendered clientes/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 398ms (Views: 344.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:11:51 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.1ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:15
+  Rendered productos/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 392ms (Views: 335.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:11:52 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.7ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:12
+  Rendered clientes/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 423ms (Views: 368.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:12:03 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.3ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:13
+  Rendered clientes/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 403ms (Views: 355.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:12:05 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.5ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:15
+  Rendered productos/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 424ms (Views: 358.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/productos/1/edit" for 172.28.128.1 at 2018-10-24 03:12:11 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProducto Load (3.1ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/productos_controller.rb:21
+  Rendering productos/edit.html.erb within layouts/application
+  Rendered productos/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 436ms (Views: 381.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:13:04 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (4.8ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:15
+  Rendered productos/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 464ms (Views: 416.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/productos/1/edit" for 172.28.128.1 at 2018-10-24 03:13:05 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProducto Load (4.4ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/productos_controller.rb:21
+  Rendering productos/edit.html.erb within layouts/application
+  Rendered productos/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 419ms (Views: 368.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/productos/1/clientes" for 172.28.128.1 at 2018-10-24 03:13:10 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/productos/1/clientes"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/productos/1/edit" for 172.28.128.1 at 2018-10-24 03:13:11 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProducto Load (3.0ms)[0m  [1m[34mSELECT  "productos".* FROM "productos" WHERE "productos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/productos_controller.rb:21
+  Rendering productos/edit.html.erb within layouts/application
+  Rendered productos/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 468ms (Views: 409.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/productos" for 172.28.128.1 at 2018-10-24 03:13:12 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductosController#index as HTML
+  Rendering productos/index.html.erb within layouts/application
+  [1m[36mProducto Load (2.3ms)[0m  [1m[34mSELECT "productos".* FROM "productos"[0m
+  ↳ app/views/productos/index.html.erb:15
+  Rendered productos/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 448ms (Views: 402.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:13:13 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 402ms (Views: 355.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:13:14 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.5ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:13
+  Rendered clientes/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 411ms (Views: 363.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/clientes/1/edit" for 172.28.128.1 at 2018-10-24 03:13:16 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCliente Load (3.1ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/clientes_controller.rb:22
+  Rendering clientes/edit.html.erb within layouts/application
+  Rendered clientes/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 430ms (Views: 374.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/clientes/1/edit" for 172.28.128.1 at 2018-10-24 03:13:39 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCliente Load (3.1ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/clientes_controller.rb:22
+  Rendering clientes/edit.html.erb within layouts/application
+  Rendered clientes/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 486ms (Views: 431.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 172.28.128.1 at 2018-10-24 03:13:44 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 432ms (Views: 377.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes" for 172.28.128.1 at 2018-10-24 03:13:45 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#index as HTML
+  Rendering clientes/index.html.erb within layouts/application
+  [1m[36mCliente Load (2.3ms)[0m  [1m[34mSELECT "clientes".* FROM "clientes"[0m
+  ↳ app/views/clientes/index.html.erb:13
+  Rendered clientes/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 403ms (Views: 349.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/clientes/1/edit" for 172.28.128.1 at 2018-10-24 03:13:46 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCliente Load (2.4ms)[0m  [1m[34mSELECT  "clientes".* FROM "clientes" WHERE "clientes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/clientes_controller.rb:22
+  Rendering clientes/edit.html.erb within layouts/application
+  Rendered clientes/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 414ms (Views: 353.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/clientes/new" for 172.28.128.1 at 2018-10-24 03:13:48 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#new as HTML
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 396ms (Views: 350.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes/new" for 172.28.128.1 at 2018-10-24 03:14:23 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#new as HTML
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 446ms (Views: 403.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes/new" for 172.28.128.1 at 2018-10-24 03:14:46 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#new as HTML
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 464ms (Views: 418.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clientes/new" for 172.28.128.1 at 2018-10-24 03:14:49 +0000
+Cannot render console from 172.28.128.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClientesController#new as HTML
+  Rendering clientes/new.html.erb within layouts/application
+  Rendered clientes/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 438ms (Views: 398.5ms | ActiveRecord: 0.0ms)
+
+

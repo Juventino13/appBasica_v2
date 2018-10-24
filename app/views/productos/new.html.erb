@@ -1,15 +1,33 @@
-<%= form_for @productos do |f| %>
-    <div>
-    <%= f.label :nombre_producto %> 
-    <%= f.text_field :nombre_producto %> 
-    </div>
-    <div>
-    <%= f.label :precio %> 
-    <%= f.text_field :precio %> 
-    </div>
 
-    <div>
-    <%= f.submit %> 
-   
-    </div>
-    <%end %> 
+<hr>
+<%= form_for @productos do |f| %>
+<div class="container">
+    <table class="table table-dark">
+        <tr>
+            <td>
+                <%= f.label :nombre_producto %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%= f.text_field :nombre_producto %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%= f.label :precio %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%= f.text_field :precio %>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <%= f.submit %>
+            </td>
+        </tr>
+    </table>
+</div>
+    <%end %>
