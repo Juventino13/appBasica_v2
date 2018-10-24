@@ -10,23 +10,23 @@
       </ul>
     </div>
   <% end %>
-
+<table class="table table-dark">
   <div class="field">
-    <%= form.label :cliente_id %>
-    <%= form.text_field :cliente_id %>
+     <td> <%= form.label :cliente_id %></td>
+     <td> <%= form.text_field :cliente_id %></td>
   </div>
 
   <div class="field">
-    <%= form.label :num_orden %>
-    <%= form.number_field :num_orden %>
+    <td>  <%= form.label :num_orden %></td>
+   <td> <%= form.number_field :num_orden %></td>
   </div>
 
   <div class="field">
-    <%= form.label :fecha %>
-    <%= form.date_select :fecha %>
+     <td> <%= form.label :fecha %></td>
+   <td> <%= form.date_select :fecha %></td>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+     <td> <%= form.submit %></td>
   </div>
 <% end %>

@@ -10,23 +10,26 @@
       </ul>
     </div>
   <% end %>
-
+<table class="table table-dark">
   <div class="field">
-    <%= form.label :producto_id %>
-    <%= form.text_field :producto_id %>
+  <td>   <%= form.label :producto_id %> </td>
+   <td> <%= form.text_field :producto_id %></td>
   </div>
 
   <div class="field">
-    <%= form.label :cantidad %>
-    <%= form.number_field :cantidad %>
+    <td><%= form.label :cantidad %></td>
+   <td> <%= form.number_field :cantidad %></td>
   </div>
 
   <div class="field">
-    <%= form.label :precio %>
-    <%= form.number_field :precio %>
+   <td> <%= form.label :precio %></td>
+   <td> <%= form.number_field :precio %></td>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+
+   <td> <%= form.submit %></td>
+  
   </div>
+  </table> 
 <% end %>
